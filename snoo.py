@@ -4,6 +4,7 @@ import os
 import sys
 
 #Patrick McBrien
+#THIS FINDS ALL REGIONS IN ORG AND LOOPS THROUGH ALL ACCOUNTS IN ORG AND DUMPS VPC/CIDR INFO
 
 def paginate(method, **kwargs):
     client = method.__self__
@@ -19,17 +20,15 @@ print(regions)
 
 for region in ec2_client.describe_regions()['Regions']:
     region_name = region['RegionName']
-    print ("Listing VPC and subnet info on all accounts in org in region" + region_name)
+
     org_client = boto3.client('organizations')
     for account in paginate(org_client.list_accounts):
-        #print "result  " + str(account['Id'])
+        print ("Listing VPC and subnet info in region" + region_name + " on AccountId  " + str(account['Id']))
 
         print (account['Id'], account['Name'], account['Arn'])
         ###     #if account['Id'] != rootaccount:
-        if account['Id'] != '1234':
+        if account['Id'] != '1234': #use if you want to leave out ROOT account.
 
-            #client_sess = getsession(account)
-            #clientcf=client_sess.client('cloudformation')
             sc_client=boto3.client('ec2', region_name=region_name)
             try:
                 response = sc_client.describe_vpcs()
@@ -38,8 +37,6 @@ for region in ec2_client.describe_regions()['Regions']:
                     for rp in resp:
                         if rp['IsDefault']:
                             print(rp)
-                            #return rp['VpcId']
-                            #print(rp['CidrBlock']) + " VPC ID " + rp['VpcId'] + " Is Default " + str(rp['IsDefault']) + " Tag " + str(rp.get('Tags',"NA"))
                 else:
                     print('No vpcs found')
             except:
