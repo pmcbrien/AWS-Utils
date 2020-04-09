@@ -3,9 +3,7 @@ import botocore
 import os
 import sys
 
-#Patrick McBrien AWS 2020
-#Not officially supported and is best effory only.
-#Feel free to share and use
+#Patrick McBrien
 #THIS FINDS ALL REGIONS IN ORG AND LOOPS THROUGH ALL ACCOUNTS IN ORG AND DUMPS VPC/CIDR INFO
 
 def paginate(method, **kwargs):
@@ -44,7 +42,3 @@ for region in ec2_client.describe_regions()['Regions']:
             except:
                 print("Error getting")
                 raise
-
-
-
-
