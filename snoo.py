@@ -3,7 +3,9 @@ import botocore
 import os
 import sys
 
-#Patrick McBrien
+#Patrick McBrien AWS 2020
+#Not officially supported and is best effory only.
+#Feel free to share and use
 #THIS FINDS ALL REGIONS IN ORG AND LOOPS THROUGH ALL ACCOUNTS IN ORG AND DUMPS VPC/CIDR INFO
 
 def paginate(method, **kwargs):
