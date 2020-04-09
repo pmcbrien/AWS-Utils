@@ -16,7 +16,7 @@ def paginate(method, **kwargs):
 # List all regions
 ec2_client = boto3.client('ec2')
 regions = [region['RegionName'] for region in ec2_client.describe_regions()['Regions']]
-print(regions)
+#print(regions)
 
 for region in ec2_client.describe_regions()['Regions']:
     region_name = region['RegionName']
@@ -26,9 +26,10 @@ for region in ec2_client.describe_regions()['Regions']:
         print ("Listing VPC and subnet info in region" + region_name + " on AccountId  " + str(account['Id']))
 
         print (account['Id'], account['Name'], account['Arn'])
-        ###     #if account['Id'] != rootaccount:
-        if account['Id'] != '1234': #use if you want to leave out ROOT account.
-
+        #if account['Id'] != rootaccount:
+        #print (account['Status'])
+        #if account['Id'] != '134': #use if you want to leave out ROOT account.
+        if account['Status'] == 'ACTIVE':
             sc_client=boto3.client('ec2', region_name=region_name)
             try:
                 response = sc_client.describe_vpcs()
@@ -42,3 +43,7 @@ for region in ec2_client.describe_regions()['Regions']:
             except:
                 print("Error getting")
                 raise
+
+
+
+
