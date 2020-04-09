@@ -6,6 +6,58 @@ import sys
 #Patrick McBrien
 #THIS FINDS ALL REGIONS IN ORG AND LOOPS THROUGH ALL ACCOUNTS IN ORG AND DUMPS VPC/CIDR INFO
 
+####################################################################################################
+# Get AWS Credentials
+def get_new_client(account_id, resource, region):
+    """Return temp creds for each account"""
+
+    # Call the assume_role method of the STSConnection object and pass the role
+    # ARN and a role session name.
+    try:
+        response = DEFAULT_CLIENT.assume_role(
+            RoleArn="arn:aws:iam::" + account_id + ":role/" + AWS_ROLE,
+            RoleSessionName="AssumeRoleSession1"
+            )
+
+        session = Session(aws_access_key_id=response['Credentials']['AccessKeyId'],
+                      aws_secret_access_key=response['Credentials']['SecretAccessKey'],
+                      aws_session_token=response['Credentials']['SessionToken'],
+                      region_name=region)
+
+        return session.client(resource)
+
+    except botocore.exceptions.ClientError as e:
+        logging.info("Error: %s", e)
+
+        
+####################################################################################################
+# Get All Account Instances
+def get_all_instances(ec2_client):
+    """Return ALL Instances to Compare against SSM"""
+    logging.info('Getting SSM Inventory')
+
+    # Utilize SSM Paginator
+    paginator = ec2_client.get_paginator('describe_instances')
+
+    response_iterator = paginator.paginate(
+        Filters=[
+            {
+                'Name': 'instance-state-name',
+                'Values' :['running', 'stopped']
+            }]
+    )
+
+    # Initialize Instance List
+    ec2_instances = []
+
+    ## Loop Through Inventory in each Account
+    for reservations in response_iterator:
+        for instances in reservations['Reservations']:
+            ec2_instances.append(instances['Instances'][0])
+
+    # Send back list of Instances
+    return ec2_instances
+
 def paginate(method, **kwargs):
     client = method.__self__
     paginator = client.get_paginator(method.__name__)
@@ -14,7 +66,15 @@ def paginate(method, **kwargs):
             yield result
 
 # List all regions
-ec2_client = boto3.client('ec2')
+#ec2_client = boto3.client('ec2')
+
+# Get EC2 Client
+ec2_client = get_new_client(account, 'ec2', region)
+
+# Grab All Instances
+all_instances = get_all_instances(ec2_client)
+
+
 regions = [region['RegionName'] for region in ec2_client.describe_regions()['Regions']]
 #print(regions)
 #
