@@ -20,16 +20,16 @@ regions = [region['RegionName'] for region in ec2_client.describe_regions()['Reg
 
 for region in ec2_client.describe_regions()['Regions']:
     region_name = region['RegionName']
-
+    #
     org_client = boto3.client('organizations')
     for account in paginate(org_client.list_accounts):
-        print ("Listing VPC and subnet info in region" + region_name + " on AccountId  " + str(account['Id']))
-
-        print (account['Id'], account['Name'], account['Arn'])
+        #print (" AccountId  " + str(account['Id']))
+        #print (account['Id'], account['Name'], account['Arn'])
         #if account['Id'] != rootaccount:
         #print (account['Status'])
         #if account['Id'] != '134': #use if you want to leave out ROOT account.
         if account['Status'] == 'ACTIVE':
+
             sc_client=boto3.client('ec2', region_name=region_name)
             try:
                 response = sc_client.describe_vpcs()
@@ -37,6 +37,13 @@ for region in ec2_client.describe_regions()['Regions']:
                 if resp:
                     for rp in resp:
                         #if rp['IsDefault']:
+
+                        print('\n\n')
+                        print ("AccountId " + str(account['Id']))
+                        print ("Region " + region_name )
+                        print("OwnerId " + rp['OwnerId'])
+                        print("VPCId " + rp['VpcId'])
+                        print (rp['CidrBlock'])
                         print(rp)
                 else:
                     print('No vpcs found')
