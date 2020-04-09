@@ -36,8 +36,8 @@ for region in ec2_client.describe_regions()['Regions']:
                 resp = response['Vpcs']
                 if resp:
                     for rp in resp:
-                        if rp['IsDefault']:
-                            print(rp)
+                        #if rp['IsDefault']:
+                        print(rp)
                 else:
                     print('No vpcs found')
             except:
