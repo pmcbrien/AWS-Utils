@@ -1,0 +1,151 @@
+['eu-north-1', 'ap-south-1', 'eu-west-3', 'eu-west-2', 'eu-west-1', 'ap-northeast-3', 'ap-northeast-2', 'ap-northeast-1', 'sa-east-1', 'ca-central-1', 'ap-southeast-1', 'ap-southeast-2', 'eu-central-1', 'us-east-1', 'us-east-2', 'us-west-1', 'us-west-2']
+Listing VPC and subnet info in regioneu-north-1 on AccountId  352985652625
+352985652625 Patrick McBrien arn:aws:organizations::352985652625:account/o-oomz8v5q7v/352985652625
+{'CidrBlock': '172.31.0.0/16', 'DhcpOptionsId': 'dopt-1f1bf176', 'State': 'available', 'VpcId': 'vpc-1b937972', 'OwnerId': '352985652625', 'InstanceTenancy': 'default', 'CidrBlockAssociationSet': [{'AssociationId': 'vpc-cidr-assoc-a852b8c1', 'CidrBlock': '172.31.0.0/16', 'CidrBlockState': {'State': 'associated'}}], 'IsDefault': True}
+Listing VPC and subnet info in regioneu-north-1 on AccountId  668785952806
+668785952806 mcbrienp-1 arn:aws:organizations::352985652625:account/o-oomz8v5q7v/668785952806
+{'CidrBlock': '172.31.0.0/16', 'DhcpOptionsId': 'dopt-1f1bf176', 'State': 'available', 'VpcId': 'vpc-1b937972', 'OwnerId': '352985652625', 'InstanceTenancy': 'default', 'CidrBlockAssociationSet': [{'AssociationId': 'vpc-cidr-assoc-a852b8c1', 'CidrBlock': '172.31.0.0/16', 'CidrBlockState': {'State': 'associated'}}], 'IsDefault': True}
+Listing VPC and subnet info in regioneu-north-1 on AccountId  188535647134
+188535647134 007hacker007 arn:aws:organizations::352985652625:account/o-oomz8v5q7v/188535647134
+{'CidrBlock': '172.31.0.0/16', 'DhcpOptionsId': 'dopt-1f1bf176', 'State': 'available', 'VpcId': 'vpc-1b937972', 'OwnerId': '352985652625', 'InstanceTenancy': 'default', 'CidrBlockAssociationSet': [{'AssociationId': 'vpc-cidr-assoc-a852b8c1', 'CidrBlock': '172.31.0.0/16', 'CidrBlockState': {'State': 'associated'}}], 'IsDefault': True}
+Listing VPC and subnet info in regionap-south-1 on AccountId  352985652625
+352985652625 Patrick McBrien arn:aws:organizations::352985652625:account/o-oomz8v5q7v/352985652625
+{'CidrBlock': '172.31.0.0/16', 'DhcpOptionsId': 'dopt-68393600', 'State': 'available', 'VpcId': 'vpc-4335152b', 'OwnerId': '352985652625', 'InstanceTenancy': 'default', 'CidrBlockAssociationSet': [{'AssociationId': 'vpc-cidr-assoc-4ba1e523', 'CidrBlock': '172.31.0.0/16', 'CidrBlockState': {'State': 'associated'}}], 'IsDefault': True}
+Listing VPC and subnet info in regionap-south-1 on AccountId  668785952806
+668785952806 mcbrienp-1 arn:aws:organizations::352985652625:account/o-oomz8v5q7v/668785952806
+{'CidrBlock': '172.31.0.0/16', 'DhcpOptionsId': 'dopt-68393600', 'State': 'available', 'VpcId': 'vpc-4335152b', 'OwnerId': '352985652625', 'InstanceTenancy': 'default', 'CidrBlockAssociationSet': [{'AssociationId': 'vpc-cidr-assoc-4ba1e523', 'CidrBlock': '172.31.0.0/16', 'CidrBlockState': {'State': 'associated'}}], 'IsDefault': True}
+Listing VPC and subnet info in regionap-south-1 on AccountId  188535647134
+188535647134 007hacker007 arn:aws:organizations::352985652625:account/o-oomz8v5q7v/188535647134
+{'CidrBlock': '172.31.0.0/16', 'DhcpOptionsId': 'dopt-68393600', 'State': 'available', 'VpcId': 'vpc-4335152b', 'OwnerId': '352985652625', 'InstanceTenancy': 'default', 'CidrBlockAssociationSet': [{'AssociationId': 'vpc-cidr-assoc-4ba1e523', 'CidrBlock': '172.31.0.0/16', 'CidrBlockState': {'State': 'associated'}}], 'IsDefault': True}
+Listing VPC and subnet info in regioneu-west-3 on AccountId  352985652625
+352985652625 Patrick McBrien arn:aws:organizations::352985652625:account/o-oomz8v5q7v/352985652625
+{'CidrBlock': '172.31.0.0/16', 'DhcpOptionsId': 'dopt-8c5a78e5', 'State': 'available', 'VpcId': 'vpc-8d5772e4', 'OwnerId': '352985652625', 'InstanceTenancy': 'default', 'CidrBlockAssociationSet': [{'AssociationId': 'vpc-cidr-assoc-5618173f', 'CidrBlock': '172.31.0.0/16', 'CidrBlockState': {'State': 'associated'}}], 'IsDefault': True}
+Listing VPC and subnet info in regioneu-west-3 on AccountId  668785952806
+668785952806 mcbrienp-1 arn:aws:organizations::352985652625:account/o-oomz8v5q7v/668785952806
+{'CidrBlock': '172.31.0.0/16', 'DhcpOptionsId': 'dopt-8c5a78e5', 'State': 'available', 'VpcId': 'vpc-8d5772e4', 'OwnerId': '352985652625', 'InstanceTenancy': 'default', 'CidrBlockAssociationSet': [{'AssociationId': 'vpc-cidr-assoc-5618173f', 'CidrBlock': '172.31.0.0/16', 'CidrBlockState': {'State': 'associated'}}], 'IsDefault': True}
+Listing VPC and subnet info in regioneu-west-3 on AccountId  188535647134
+188535647134 007hacker007 arn:aws:organizations::352985652625:account/o-oomz8v5q7v/188535647134
+{'CidrBlock': '172.31.0.0/16', 'DhcpOptionsId': 'dopt-8c5a78e5', 'State': 'available', 'VpcId': 'vpc-8d5772e4', 'OwnerId': '352985652625', 'InstanceTenancy': 'default', 'CidrBlockAssociationSet': [{'AssociationId': 'vpc-cidr-assoc-5618173f', 'CidrBlock': '172.31.0.0/16', 'CidrBlockState': {'State': 'associated'}}], 'IsDefault': True}
+Listing VPC and subnet info in regioneu-west-2 on AccountId  352985652625
+352985652625 Patrick McBrien arn:aws:organizations::352985652625:account/o-oomz8v5q7v/352985652625
+{'CidrBlock': '172.31.0.0/16', 'DhcpOptionsId': 'dopt-6615610e', 'State': 'available', 'VpcId': 'vpc-374bd65f', 'OwnerId': '352985652625', 'InstanceTenancy': 'default', 'CidrBlockAssociationSet': [{'AssociationId': 'vpc-cidr-assoc-18ff8a70', 'CidrBlock': '172.31.0.0/16', 'CidrBlockState': {'State': 'associated'}}], 'IsDefault': True}
+Listing VPC and subnet info in regioneu-west-2 on AccountId  668785952806
+668785952806 mcbrienp-1 arn:aws:organizations::352985652625:account/o-oomz8v5q7v/668785952806
+{'CidrBlock': '172.31.0.0/16', 'DhcpOptionsId': 'dopt-6615610e', 'State': 'available', 'VpcId': 'vpc-374bd65f', 'OwnerId': '352985652625', 'InstanceTenancy': 'default', 'CidrBlockAssociationSet': [{'AssociationId': 'vpc-cidr-assoc-18ff8a70', 'CidrBlock': '172.31.0.0/16', 'CidrBlockState': {'State': 'associated'}}], 'IsDefault': True}
+Listing VPC and subnet info in regioneu-west-2 on AccountId  188535647134
+188535647134 007hacker007 arn:aws:organizations::352985652625:account/o-oomz8v5q7v/188535647134
+{'CidrBlock': '172.31.0.0/16', 'DhcpOptionsId': 'dopt-6615610e', 'State': 'available', 'VpcId': 'vpc-374bd65f', 'OwnerId': '352985652625', 'InstanceTenancy': 'default', 'CidrBlockAssociationSet': [{'AssociationId': 'vpc-cidr-assoc-18ff8a70', 'CidrBlock': '172.31.0.0/16', 'CidrBlockState': {'State': 'associated'}}], 'IsDefault': True}
+Listing VPC and subnet info in regioneu-west-1 on AccountId  352985652625
+352985652625 Patrick McBrien arn:aws:organizations::352985652625:account/o-oomz8v5q7v/352985652625
+{'CidrBlock': '172.31.0.0/16', 'DhcpOptionsId': 'dopt-c41a82a2', 'State': 'available', 'VpcId': 'vpc-fbcae39d', 'OwnerId': '352985652625', 'InstanceTenancy': 'default', 'CidrBlockAssociationSet': [{'AssociationId': 'vpc-cidr-assoc-0a2f7e61', 'CidrBlock': '172.31.0.0/16', 'CidrBlockState': {'State': 'associated'}}], 'IsDefault': True}
+Listing VPC and subnet info in regioneu-west-1 on AccountId  668785952806
+668785952806 mcbrienp-1 arn:aws:organizations::352985652625:account/o-oomz8v5q7v/668785952806
+{'CidrBlock': '172.31.0.0/16', 'DhcpOptionsId': 'dopt-c41a82a2', 'State': 'available', 'VpcId': 'vpc-fbcae39d', 'OwnerId': '352985652625', 'InstanceTenancy': 'default', 'CidrBlockAssociationSet': [{'AssociationId': 'vpc-cidr-assoc-0a2f7e61', 'CidrBlock': '172.31.0.0/16', 'CidrBlockState': {'State': 'associated'}}], 'IsDefault': True}
+Listing VPC and subnet info in regioneu-west-1 on AccountId  188535647134
+188535647134 007hacker007 arn:aws:organizations::352985652625:account/o-oomz8v5q7v/188535647134
+{'CidrBlock': '172.31.0.0/16', 'DhcpOptionsId': 'dopt-c41a82a2', 'State': 'available', 'VpcId': 'vpc-fbcae39d', 'OwnerId': '352985652625', 'InstanceTenancy': 'default', 'CidrBlockAssociationSet': [{'AssociationId': 'vpc-cidr-assoc-0a2f7e61', 'CidrBlock': '172.31.0.0/16', 'CidrBlockState': {'State': 'associated'}}], 'IsDefault': True}
+Listing VPC and subnet info in regionap-northeast-3 on AccountId  352985652625
+352985652625 Patrick McBrien arn:aws:organizations::352985652625:account/o-oomz8v5q7v/352985652625
+{'CidrBlock': '172.31.0.0/16', 'DhcpOptionsId': 'dopt-7767f51e', 'State': 'available', 'VpcId': 'vpc-3613985f', 'OwnerId': '352985652625', 'InstanceTenancy': 'default', 'CidrBlockAssociationSet': [{'AssociationId': 'vpc-cidr-assoc-8dcbade4', 'CidrBlock': '172.31.0.0/16', 'CidrBlockState': {'State': 'associated'}}], 'IsDefault': True}
+Listing VPC and subnet info in regionap-northeast-3 on AccountId  668785952806
+668785952806 mcbrienp-1 arn:aws:organizations::352985652625:account/o-oomz8v5q7v/668785952806
+{'CidrBlock': '172.31.0.0/16', 'DhcpOptionsId': 'dopt-7767f51e', 'State': 'available', 'VpcId': 'vpc-3613985f', 'OwnerId': '352985652625', 'InstanceTenancy': 'default', 'CidrBlockAssociationSet': [{'AssociationId': 'vpc-cidr-assoc-8dcbade4', 'CidrBlock': '172.31.0.0/16', 'CidrBlockState': {'State': 'associated'}}], 'IsDefault': True}
+Listing VPC and subnet info in regionap-northeast-3 on AccountId  188535647134
+188535647134 007hacker007 arn:aws:organizations::352985652625:account/o-oomz8v5q7v/188535647134
+{'CidrBlock': '172.31.0.0/16', 'DhcpOptionsId': 'dopt-7767f51e', 'State': 'available', 'VpcId': 'vpc-3613985f', 'OwnerId': '352985652625', 'InstanceTenancy': 'default', 'CidrBlockAssociationSet': [{'AssociationId': 'vpc-cidr-assoc-8dcbade4', 'CidrBlock': '172.31.0.0/16', 'CidrBlockState': {'State': 'associated'}}], 'IsDefault': True}
+Listing VPC and subnet info in regionap-northeast-2 on AccountId  352985652625
+352985652625 Patrick McBrien arn:aws:organizations::352985652625:account/o-oomz8v5q7v/352985652625
+{'CidrBlock': '172.31.0.0/16', 'DhcpOptionsId': 'dopt-05db0f6e', 'State': 'available', 'VpcId': 'vpc-1ecf2f75', 'OwnerId': '352985652625', 'InstanceTenancy': 'default', 'CidrBlockAssociationSet': [{'AssociationId': 'vpc-cidr-assoc-b47a00dc', 'CidrBlock': '172.31.0.0/16', 'CidrBlockState': {'State': 'associated'}}], 'IsDefault': True}
+Listing VPC and subnet info in regionap-northeast-2 on AccountId  668785952806
+668785952806 mcbrienp-1 arn:aws:organizations::352985652625:account/o-oomz8v5q7v/668785952806
+{'CidrBlock': '172.31.0.0/16', 'DhcpOptionsId': 'dopt-05db0f6e', 'State': 'available', 'VpcId': 'vpc-1ecf2f75', 'OwnerId': '352985652625', 'InstanceTenancy': 'default', 'CidrBlockAssociationSet': [{'AssociationId': 'vpc-cidr-assoc-b47a00dc', 'CidrBlock': '172.31.0.0/16', 'CidrBlockState': {'State': 'associated'}}], 'IsDefault': True}
+Listing VPC and subnet info in regionap-northeast-2 on AccountId  188535647134
+188535647134 007hacker007 arn:aws:organizations::352985652625:account/o-oomz8v5q7v/188535647134
+{'CidrBlock': '172.31.0.0/16', 'DhcpOptionsId': 'dopt-05db0f6e', 'State': 'available', 'VpcId': 'vpc-1ecf2f75', 'OwnerId': '352985652625', 'InstanceTenancy': 'default', 'CidrBlockAssociationSet': [{'AssociationId': 'vpc-cidr-assoc-b47a00dc', 'CidrBlock': '172.31.0.0/16', 'CidrBlockState': {'State': 'associated'}}], 'IsDefault': True}
+Listing VPC and subnet info in regionap-northeast-1 on AccountId  352985652625
+352985652625 Patrick McBrien arn:aws:organizations::352985652625:account/o-oomz8v5q7v/352985652625
+{'CidrBlock': '172.31.0.0/16', 'DhcpOptionsId': 'dopt-8ebff9e9', 'State': 'available', 'VpcId': 'vpc-b0b9e1d7', 'OwnerId': '352985652625', 'InstanceTenancy': 'default', 'CidrBlockAssociationSet': [{'AssociationId': 'vpc-cidr-assoc-68604400', 'CidrBlock': '172.31.0.0/16', 'CidrBlockState': {'State': 'associated'}}], 'IsDefault': True}
+Listing VPC and subnet info in regionap-northeast-1 on AccountId  668785952806
+668785952806 mcbrienp-1 arn:aws:organizations::352985652625:account/o-oomz8v5q7v/668785952806
+{'CidrBlock': '172.31.0.0/16', 'DhcpOptionsId': 'dopt-8ebff9e9', 'State': 'available', 'VpcId': 'vpc-b0b9e1d7', 'OwnerId': '352985652625', 'InstanceTenancy': 'default', 'CidrBlockAssociationSet': [{'AssociationId': 'vpc-cidr-assoc-68604400', 'CidrBlock': '172.31.0.0/16', 'CidrBlockState': {'State': 'associated'}}], 'IsDefault': True}
+Listing VPC and subnet info in regionap-northeast-1 on AccountId  188535647134
+188535647134 007hacker007 arn:aws:organizations::352985652625:account/o-oomz8v5q7v/188535647134
+{'CidrBlock': '172.31.0.0/16', 'DhcpOptionsId': 'dopt-8ebff9e9', 'State': 'available', 'VpcId': 'vpc-b0b9e1d7', 'OwnerId': '352985652625', 'InstanceTenancy': 'default', 'CidrBlockAssociationSet': [{'AssociationId': 'vpc-cidr-assoc-68604400', 'CidrBlock': '172.31.0.0/16', 'CidrBlockState': {'State': 'associated'}}], 'IsDefault': True}
+Listing VPC and subnet info in regionsa-east-1 on AccountId  352985652625
+352985652625 Patrick McBrien arn:aws:organizations::352985652625:account/o-oomz8v5q7v/352985652625
+{'CidrBlock': '172.31.0.0/16', 'DhcpOptionsId': 'dopt-78c1181f', 'State': 'available', 'VpcId': 'vpc-e4ffb283', 'OwnerId': '352985652625', 'InstanceTenancy': 'default', 'CidrBlockAssociationSet': [{'AssociationId': 'vpc-cidr-assoc-618ee409', 'CidrBlock': '172.31.0.0/16', 'CidrBlockState': {'State': 'associated'}}], 'IsDefault': True}
+Listing VPC and subnet info in regionsa-east-1 on AccountId  668785952806
+668785952806 mcbrienp-1 arn:aws:organizations::352985652625:account/o-oomz8v5q7v/668785952806
+{'CidrBlock': '172.31.0.0/16', 'DhcpOptionsId': 'dopt-78c1181f', 'State': 'available', 'VpcId': 'vpc-e4ffb283', 'OwnerId': '352985652625', 'InstanceTenancy': 'default', 'CidrBlockAssociationSet': [{'AssociationId': 'vpc-cidr-assoc-618ee409', 'CidrBlock': '172.31.0.0/16', 'CidrBlockState': {'State': 'associated'}}], 'IsDefault': True}
+Listing VPC and subnet info in regionsa-east-1 on AccountId  188535647134
+188535647134 007hacker007 arn:aws:organizations::352985652625:account/o-oomz8v5q7v/188535647134
+{'CidrBlock': '172.31.0.0/16', 'DhcpOptionsId': 'dopt-78c1181f', 'State': 'available', 'VpcId': 'vpc-e4ffb283', 'OwnerId': '352985652625', 'InstanceTenancy': 'default', 'CidrBlockAssociationSet': [{'AssociationId': 'vpc-cidr-assoc-618ee409', 'CidrBlock': '172.31.0.0/16', 'CidrBlockState': {'State': 'associated'}}], 'IsDefault': True}
+Listing VPC and subnet info in regionca-central-1 on AccountId  352985652625
+352985652625 Patrick McBrien arn:aws:organizations::352985652625:account/o-oomz8v5q7v/352985652625
+{'CidrBlock': '172.31.0.0/16', 'DhcpOptionsId': 'dopt-38790750', 'State': 'available', 'VpcId': 'vpc-d994f3b1', 'OwnerId': '352985652625', 'InstanceTenancy': 'default', 'CidrBlockAssociationSet': [{'AssociationId': 'vpc-cidr-assoc-06cdbf6e', 'CidrBlock': '172.31.0.0/16', 'CidrBlockState': {'State': 'associated'}}], 'IsDefault': True}
+Listing VPC and subnet info in regionca-central-1 on AccountId  668785952806
+668785952806 mcbrienp-1 arn:aws:organizations::352985652625:account/o-oomz8v5q7v/668785952806
+{'CidrBlock': '172.31.0.0/16', 'DhcpOptionsId': 'dopt-38790750', 'State': 'available', 'VpcId': 'vpc-d994f3b1', 'OwnerId': '352985652625', 'InstanceTenancy': 'default', 'CidrBlockAssociationSet': [{'AssociationId': 'vpc-cidr-assoc-06cdbf6e', 'CidrBlock': '172.31.0.0/16', 'CidrBlockState': {'State': 'associated'}}], 'IsDefault': True}
+Listing VPC and subnet info in regionca-central-1 on AccountId  188535647134
+188535647134 007hacker007 arn:aws:organizations::352985652625:account/o-oomz8v5q7v/188535647134
+{'CidrBlock': '172.31.0.0/16', 'DhcpOptionsId': 'dopt-38790750', 'State': 'available', 'VpcId': 'vpc-d994f3b1', 'OwnerId': '352985652625', 'InstanceTenancy': 'default', 'CidrBlockAssociationSet': [{'AssociationId': 'vpc-cidr-assoc-06cdbf6e', 'CidrBlock': '172.31.0.0/16', 'CidrBlockState': {'State': 'associated'}}], 'IsDefault': True}
+Listing VPC and subnet info in regionap-southeast-1 on AccountId  352985652625
+352985652625 Patrick McBrien arn:aws:organizations::352985652625:account/o-oomz8v5q7v/352985652625
+{'CidrBlock': '172.31.0.0/16', 'DhcpOptionsId': 'dopt-1aa98e7d', 'State': 'available', 'VpcId': 'vpc-ccfbd7ab', 'OwnerId': '352985652625', 'InstanceTenancy': 'default', 'CidrBlockAssociationSet': [{'AssociationId': 'vpc-cidr-assoc-64a8520f', 'CidrBlock': '172.31.0.0/16', 'CidrBlockState': {'State': 'associated'}}], 'IsDefault': True}
+Listing VPC and subnet info in regionap-southeast-1 on AccountId  668785952806
+668785952806 mcbrienp-1 arn:aws:organizations::352985652625:account/o-oomz8v5q7v/668785952806
+{'CidrBlock': '172.31.0.0/16', 'DhcpOptionsId': 'dopt-1aa98e7d', 'State': 'available', 'VpcId': 'vpc-ccfbd7ab', 'OwnerId': '352985652625', 'InstanceTenancy': 'default', 'CidrBlockAssociationSet': [{'AssociationId': 'vpc-cidr-assoc-64a8520f', 'CidrBlock': '172.31.0.0/16', 'CidrBlockState': {'State': 'associated'}}], 'IsDefault': True}
+Listing VPC and subnet info in regionap-southeast-1 on AccountId  188535647134
+188535647134 007hacker007 arn:aws:organizations::352985652625:account/o-oomz8v5q7v/188535647134
+{'CidrBlock': '172.31.0.0/16', 'DhcpOptionsId': 'dopt-1aa98e7d', 'State': 'available', 'VpcId': 'vpc-ccfbd7ab', 'OwnerId': '352985652625', 'InstanceTenancy': 'default', 'CidrBlockAssociationSet': [{'AssociationId': 'vpc-cidr-assoc-64a8520f', 'CidrBlock': '172.31.0.0/16', 'CidrBlockState': {'State': 'associated'}}], 'IsDefault': True}
+Listing VPC and subnet info in regionap-southeast-2 on AccountId  352985652625
+352985652625 Patrick McBrien arn:aws:organizations::352985652625:account/o-oomz8v5q7v/352985652625
+{'CidrBlock': '172.31.0.0/16', 'DhcpOptionsId': 'dopt-d292efb5', 'State': 'available', 'VpcId': 'vpc-36bbe851', 'OwnerId': '352985652625', 'InstanceTenancy': 'default', 'CidrBlockAssociationSet': [{'AssociationId': 'vpc-cidr-assoc-b5c0fcdd', 'CidrBlock': '172.31.0.0/16', 'CidrBlockState': {'State': 'associated'}}], 'IsDefault': True}
+Listing VPC and subnet info in regionap-southeast-2 on AccountId  668785952806
+668785952806 mcbrienp-1 arn:aws:organizations::352985652625:account/o-oomz8v5q7v/668785952806
+{'CidrBlock': '172.31.0.0/16', 'DhcpOptionsId': 'dopt-d292efb5', 'State': 'available', 'VpcId': 'vpc-36bbe851', 'OwnerId': '352985652625', 'InstanceTenancy': 'default', 'CidrBlockAssociationSet': [{'AssociationId': 'vpc-cidr-assoc-b5c0fcdd', 'CidrBlock': '172.31.0.0/16', 'CidrBlockState': {'State': 'associated'}}], 'IsDefault': True}
+Listing VPC and subnet info in regionap-southeast-2 on AccountId  188535647134
+188535647134 007hacker007 arn:aws:organizations::352985652625:account/o-oomz8v5q7v/188535647134
+{'CidrBlock': '172.31.0.0/16', 'DhcpOptionsId': 'dopt-d292efb5', 'State': 'available', 'VpcId': 'vpc-36bbe851', 'OwnerId': '352985652625', 'InstanceTenancy': 'default', 'CidrBlockAssociationSet': [{'AssociationId': 'vpc-cidr-assoc-b5c0fcdd', 'CidrBlock': '172.31.0.0/16', 'CidrBlockState': {'State': 'associated'}}], 'IsDefault': True}
+Listing VPC and subnet info in regioneu-central-1 on AccountId  352985652625
+352985652625 Patrick McBrien arn:aws:organizations::352985652625:account/o-oomz8v5q7v/352985652625
+{'CidrBlock': '172.31.0.0/16', 'DhcpOptionsId': 'dopt-54f8c43f', 'State': 'available', 'VpcId': 'vpc-651f230e', 'OwnerId': '352985652625', 'InstanceTenancy': 'default', 'CidrBlockAssociationSet': [{'AssociationId': 'vpc-cidr-assoc-61cac609', 'CidrBlock': '172.31.0.0/16', 'CidrBlockState': {'State': 'associated'}}], 'IsDefault': True}
+Listing VPC and subnet info in regioneu-central-1 on AccountId  668785952806
+668785952806 mcbrienp-1 arn:aws:organizations::352985652625:account/o-oomz8v5q7v/668785952806
+{'CidrBlock': '172.31.0.0/16', 'DhcpOptionsId': 'dopt-54f8c43f', 'State': 'available', 'VpcId': 'vpc-651f230e', 'OwnerId': '352985652625', 'InstanceTenancy': 'default', 'CidrBlockAssociationSet': [{'AssociationId': 'vpc-cidr-assoc-61cac609', 'CidrBlock': '172.31.0.0/16', 'CidrBlockState': {'State': 'associated'}}], 'IsDefault': True}
+Listing VPC and subnet info in regioneu-central-1 on AccountId  188535647134
+188535647134 007hacker007 arn:aws:organizations::352985652625:account/o-oomz8v5q7v/188535647134
+{'CidrBlock': '172.31.0.0/16', 'DhcpOptionsId': 'dopt-54f8c43f', 'State': 'available', 'VpcId': 'vpc-651f230e', 'OwnerId': '352985652625', 'InstanceTenancy': 'default', 'CidrBlockAssociationSet': [{'AssociationId': 'vpc-cidr-assoc-61cac609', 'CidrBlock': '172.31.0.0/16', 'CidrBlockState': {'State': 'associated'}}], 'IsDefault': True}
+Listing VPC and subnet info in regionus-east-1 on AccountId  352985652625
+352985652625 Patrick McBrien arn:aws:organizations::352985652625:account/o-oomz8v5q7v/352985652625
+{'CidrBlock': '172.31.0.0/16', 'DhcpOptionsId': 'dopt-61ffb51a', 'State': 'available', 'VpcId': 'vpc-50f0582a', 'OwnerId': '352985652625', 'InstanceTenancy': 'default', 'CidrBlockAssociationSet': [{'AssociationId': 'vpc-cidr-assoc-fcda5f90', 'CidrBlock': '172.31.0.0/16', 'CidrBlockState': {'State': 'associated'}}], 'IsDefault': True, 'Tags': [{'Key': 'Name', 'Value': 'Cluster VPC'}]}
+Listing VPC and subnet info in regionus-east-1 on AccountId  668785952806
+668785952806 mcbrienp-1 arn:aws:organizations::352985652625:account/o-oomz8v5q7v/668785952806
+{'CidrBlock': '172.31.0.0/16', 'DhcpOptionsId': 'dopt-61ffb51a', 'State': 'available', 'VpcId': 'vpc-50f0582a', 'OwnerId': '352985652625', 'InstanceTenancy': 'default', 'CidrBlockAssociationSet': [{'AssociationId': 'vpc-cidr-assoc-fcda5f90', 'CidrBlock': '172.31.0.0/16', 'CidrBlockState': {'State': 'associated'}}], 'IsDefault': True, 'Tags': [{'Key': 'Name', 'Value': 'Cluster VPC'}]}
+Listing VPC and subnet info in regionus-east-1 on AccountId  188535647134
+188535647134 007hacker007 arn:aws:organizations::352985652625:account/o-oomz8v5q7v/188535647134
+{'CidrBlock': '172.31.0.0/16', 'DhcpOptionsId': 'dopt-61ffb51a', 'State': 'available', 'VpcId': 'vpc-50f0582a', 'OwnerId': '352985652625', 'InstanceTenancy': 'default', 'CidrBlockAssociationSet': [{'AssociationId': 'vpc-cidr-assoc-fcda5f90', 'CidrBlock': '172.31.0.0/16', 'CidrBlockState': {'State': 'associated'}}], 'IsDefault': True, 'Tags': [{'Key': 'Name', 'Value': 'Cluster VPC'}]}
+Listing VPC and subnet info in regionus-east-2 on AccountId  352985652625
+352985652625 Patrick McBrien arn:aws:organizations::352985652625:account/o-oomz8v5q7v/352985652625
+Listing VPC and subnet info in regionus-east-2 on AccountId  668785952806
+668785952806 mcbrienp-1 arn:aws:organizations::352985652625:account/o-oomz8v5q7v/668785952806
+Listing VPC and subnet info in regionus-east-2 on AccountId  188535647134
+188535647134 007hacker007 arn:aws:organizations::352985652625:account/o-oomz8v5q7v/188535647134
+Listing VPC and subnet info in regionus-west-1 on AccountId  352985652625
+352985652625 Patrick McBrien arn:aws:organizations::352985652625:account/o-oomz8v5q7v/352985652625
+{'CidrBlock': '172.31.0.0/16', 'DhcpOptionsId': 'dopt-91613af6', 'State': 'available', 'VpcId': 'vpc-abe7cfcc', 'OwnerId': '352985652625', 'InstanceTenancy': 'default', 'CidrBlockAssociationSet': [{'AssociationId': 'vpc-cidr-assoc-713d2d19', 'CidrBlock': '172.31.0.0/16', 'CidrBlockState': {'State': 'associated'}}], 'IsDefault': True, 'Tags': [{'Key': 'Name', 'Value': 'CLuster'}]}
+Listing VPC and subnet info in regionus-west-1 on AccountId  668785952806
+668785952806 mcbrienp-1 arn:aws:organizations::352985652625:account/o-oomz8v5q7v/668785952806
+{'CidrBlock': '172.31.0.0/16', 'DhcpOptionsId': 'dopt-91613af6', 'State': 'available', 'VpcId': 'vpc-abe7cfcc', 'OwnerId': '352985652625', 'InstanceTenancy': 'default', 'CidrBlockAssociationSet': [{'AssociationId': 'vpc-cidr-assoc-713d2d19', 'CidrBlock': '172.31.0.0/16', 'CidrBlockState': {'State': 'associated'}}], 'IsDefault': True, 'Tags': [{'Key': 'Name', 'Value': 'CLuster'}]}
+Listing VPC and subnet info in regionus-west-1 on AccountId  188535647134
+188535647134 007hacker007 arn:aws:organizations::352985652625:account/o-oomz8v5q7v/188535647134
+{'CidrBlock': '172.31.0.0/16', 'DhcpOptionsId': 'dopt-91613af6', 'State': 'available', 'VpcId': 'vpc-abe7cfcc', 'OwnerId': '352985652625', 'InstanceTenancy': 'default', 'CidrBlockAssociationSet': [{'AssociationId': 'vpc-cidr-assoc-713d2d19', 'CidrBlock': '172.31.0.0/16', 'CidrBlockState': {'State': 'associated'}}], 'IsDefault': True, 'Tags': [{'Key': 'Name', 'Value': 'CLuster'}]}
+Listing VPC and subnet info in regionus-west-2 on AccountId  352985652625
+352985652625 Patrick McBrien arn:aws:organizations::352985652625:account/o-oomz8v5q7v/352985652625
+{'CidrBlock': '172.31.0.0/16', 'DhcpOptionsId': 'dopt-1f0cc267', 'State': 'available', 'VpcId': 'vpc-71e83909', 'OwnerId': '352985652625', 'InstanceTenancy': 'default', 'CidrBlockAssociationSet': [{'AssociationId': 'vpc-cidr-assoc-ea8ae680', 'CidrBlock': '172.31.0.0/16', 'CidrBlockState': {'State': 'associated'}}], 'IsDefault': True, 'Tags': [{'Key': 'kubernetes.io/cluster/eks_cluster', 'Value': 'shared'}]}
+Listing VPC and subnet info in regionus-west-2 on AccountId  668785952806
+668785952806 mcbrienp-1 arn:aws:organizations::352985652625:account/o-oomz8v5q7v/668785952806
+{'CidrBlock': '172.31.0.0/16', 'DhcpOptionsId': 'dopt-1f0cc267', 'State': 'available', 'VpcId': 'vpc-71e83909', 'OwnerId': '352985652625', 'InstanceTenancy': 'default', 'CidrBlockAssociationSet': [{'AssociationId': 'vpc-cidr-assoc-ea8ae680', 'CidrBlock': '172.31.0.0/16', 'CidrBlockState': {'State': 'associated'}}], 'IsDefault': True, 'Tags': [{'Key': 'kubernetes.io/cluster/eks_cluster', 'Value': 'shared'}]}
+Listing VPC and subnet info in regionus-west-2 on AccountId  188535647134
+188535647134 007hacker007 arn:aws:organizations::352985652625:account/o-oomz8v5q7v/188535647134
+{'CidrBlock': '172.31.0.0/16', 'DhcpOptionsId': 'dopt-1f0cc267', 'State': 'available', 'VpcId': 'vpc-71e83909', 'OwnerId': '352985652625', 'InstanceTenancy': 'default', 'CidrBlockAssociationSet': [{'AssociationId': 'vpc-cidr-assoc-ea8ae680', 'CidrBlock': '172.31.0.0/16', 'CidrBlockState': {'State': 'associated'}}], 'IsDefault': True, 'Tags': [{'Key': 'kubernetes.io/cluster/eks_cluster', 'Value': 'shared'}]}
