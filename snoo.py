@@ -11,8 +11,10 @@ regions = [region['RegionName'] for region in ec2_client.describe_regions()['Reg
 for region in ec2_client.describe_regions()['Regions']:
     region_name = region['RegionName']
     ec2 = boto3.client("ec2", region_name=region_name)
-    vpc = ec2.describe_vpcs()
+    #vpc = ec2.describe_vpcs()
     print ('REGION ' + region_name)
-    print(vpc)
+    #print(vpc)
     subnets = ec2.describe_subnets()
-    print(subnets)
+    #print(subnets)
+    for subnet in subnets['Subnets']:
+        print("SubnetId:"+ subnet['SubnetId']+";CIDRBlock:"+subnet['CidrBlock'])
